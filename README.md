@@ -4,7 +4,14 @@
 
 ### Paso 1 : Descarga
 
-- Para esta auditoría de pentesting vamos a usar esta instancia de Metasploit:
+- Para esta auditoría de pentesting vamos a usar esta instancia de Metasploit y Una instancia de Windows server 2003:
+
+  ![image](https://github.com/user-attachments/assets/145157f9-b7db-4de4-8573-9a0180b1c087)
+
+  --------------------------------------------------------------------------------------------------------------------
+
+  ![image](https://github.com/user-attachments/assets/50c624b5-b072-4a3a-b26d-cbde84bb5793)
+
 
   https://information.rapid7.com/metasploitable-download.html
 
@@ -171,3 +178,7 @@ Iniciamos sesión como root.
 #### Corrección
 
 Actualizar la versión de Java para parchear la puerta trasera.
+
+## Captura de pantalla Nessus y Escaneo.
+![image](https://github.com/user-attachments/assets/78561939-10de-4d31-a341-233cf8db2c8c)
+
