@@ -1,4 +1,4 @@
-# Metasploitable 2
+# Metasploitable 2 Linux
 
 ## Configuración
 
