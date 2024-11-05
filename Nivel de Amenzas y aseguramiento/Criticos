@@ -1,0 +1,39 @@
+##  1. CriticalMS09-001: Microsoft Windows SMB Vulnerabilities - Remote Code Execution
+Nivel de Alerta: Crítico
+Vulnerability Priority Rating (VPR): 7.4
+
+Descripción:
+Una vulnerabilidad de corrupción de memoria en el protocolo SMB de Microsoft Windows permite a atacantes ejecutar código de manera remota o realizar ataques de denegación de servicio en el host afectado.
+
+Solución:
+Aplicar los parches de seguridad publicados por Microsoft para Windows 2000, XP, 2003, Vista y 2008.
+
+Referencia:
+Más informacion- http://www.microsoft.com/technet/security/bulletin/ms09-001.mspx
+
+## 2. Unsupported Windows OS
+Nivel de Alerta: Crítico
+Vulnerability Priority Rating (VPR): No especificado (crítico según CVSS)
+
+Descripción:
+El sistema operativo Windows instalado en el host es una versión sin soporte o sin el último Service Pack, lo cual lo deja expuesto a múltiples vulnerabilidades de seguridad.
+
+Solución:
+Actualizar a un sistema operativo o service pack que reciba soporte activo por parte de Microsoft.
+
+Referencia:
+Más información - https://support.microsoft.com/en-us/lifecycle
+
+
+## 3. MS08-067: Microsoft Windows Server Service - Remote Code Execution
+Nivel de Alerta: Crítico
+Vulnerability Priority Rating (VPR): 9.0
+
+Descripción:
+Una vulnerabilidad en el servicio ‘Server’ de Windows permite a un atacante ejecutar código de manera remota enviando solicitudes RPC especialmente diseñadas, otorgándole privilegios de 'System' al atacante.
+
+Solución:
+Microsoft ha lanzado un conjunto de parches de seguridad para mitigar esta vulnerabilidad en Windows 2000, XP, 2003, Vista y 2008.
+
+Referencia:
+Más información - https://www.nessus.org/u?adf86aac
