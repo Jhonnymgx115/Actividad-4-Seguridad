@@ -1,0 +1,31 @@
+# Amenazas altas
+
+## MS17-010 (EternalBlue, WannaCry, Petya, etc.)
+Explotación remota de SMBv1 en Windows que permite la ejecución de código arbitrario. Utilizado por ransomware como WannaCry y Petya.
+VPR: 9.7 (justificación: alta peligrosidad y fácil explotación, con impacto masivo demostrado por ataques anteriores).
+
+
+## Como se puede dar solución?
+Instalar los parches de seguridad de Microsoft para MS17-010.
+Deshabilitar SMBv1: Disable-WindowsOptionalFeature -Online -FeatureName SMB1Protocol.
+Bloquear el puerto TCP 445 en el firewall.
+
+
+## PetitPotam (NTLM Reflection Attack)
+Permite a un atacante no autenticado realizar un ataque de elevación de privilegios mediante NTLM relay, pudiendo comprometer controladores de dominio.
+VPR: 6.7 (justificación: exploit conocido y activo, pero requiere configuración específica para ser explotado).
+
+## Como se puede dar solución:
+Aplicar parches de Microsoft (KB5005413).
+Deshabilitar la autenticación NTLM en sistemas sensibles.
+Implementar filtros RPC para bloquear interfaces vulnerables.
+
+
+## Vulnerabilidad en EFSRPC (CVE-2021-36942)
+Exploit que usa solicitudes EFSRPC para NTLM relay, permitiendo a atacantes obtener certificados y moverse lateralmente en la red.
+VPR: 6.7 (justificación: aunque el impacto es significativo, la probabilidad de explotación masiva es menor).
+
+## Como se puede dar solución?
+Aplicar actualizaciones de seguridad de Microsoft para Windows.
+Asegurar las configuraciones de Active Directory.
+Restringir acceso mediante filtros de seguridad y políticas de autenticación más robustas.
